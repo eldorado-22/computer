@@ -14,6 +14,7 @@ function App() {
     function getDark() {
         setDark(!dark)
     }
+
     return (
         <>
             <Header dark={dark} getDark={getDark}/>
