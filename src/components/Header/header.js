@@ -16,12 +16,12 @@ const Header = ({getDark, dark}) => {
     return (
         <header style={{
             background: scroll > 50 ? '#5FB848' : '',
-        }} id="container">
+        }} id="container" className="">
             <div className="container">
                 <div className="header">
 
                     <nav
-                        className="fixed w-full z-20 top-0 left-0 border-b border-gray-200 ">
+                        className="fixed w-full z-20 top-0 left-0 border-b border-gray-200 backdrop-blur	">
                         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                             <a href="https://flowbite.com/" className="flex items-center">
                                 <img src={logo} className="h-8 mr-3"
