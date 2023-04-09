@@ -1,8 +1,8 @@
 import React from 'react';
 import wd from './../../assets/img/wd.png'
-const Div = () => {
+const Div = ({getDark, dark}) => {
     return (
-        <section style={{background: "#121212", padding: "30px 0"}} id="div bg-black pt-[20%]">
+        <section style={{background: dark ? "#fff" : "black", padding: "30px 0"}} id="div bg-black pt-[20%]">
             <div className="container">
                 <div className="div flex items-center">
                     <button type="button"

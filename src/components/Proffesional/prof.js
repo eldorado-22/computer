@@ -3,9 +3,9 @@ import col from './../../assets/img/col.svg'
 import usb from './../../assets/img/usb.svg'
 import flesh from './../../assets/img/flesh.svg'
 
-const Prof = () => {
+const Prof = ({dark}) => {
     return (
-        <section id="prof">
+        <section style={{background: dark ? "#fff" : "black",}} id="prof">
             <div className="container">
                 <div className="prof">
                     <h1 className="text-white text-center text-4xl text-white pt-[10%] pl-[30px]">

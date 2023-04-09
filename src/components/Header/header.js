@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import logo from './../../assets/img/logo.svg'
 
 const Header = ({getDark, dark}) => {
@@ -12,6 +12,7 @@ const Header = ({getDark, dark}) => {
     useEffect(() => {
         window.addEventListener('scroll', toScroll)
     }, [])
+
     return (
         <header style={{
             background: scroll > 50 ? '#5FB848' : '',

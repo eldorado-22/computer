@@ -1,8 +1,8 @@
 import React from 'react';
 import comp from "./../../assets/img/compTwo.png"
-const Comp = () => {
+const Comp = ({dark}) => {
     return (
-        <section id="comp ">
+        <section style={{background: dark ? "#fff" : "black",}} id="comp ">
             <div className="container">
                 <div className="comp flex item justify-between pt-[10%]">
                     <img src={comp} alt="img"/>

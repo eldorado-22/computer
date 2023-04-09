@@ -1,9 +1,9 @@
 import React from 'react';
 import logoTwo from "./../../assets/img/logoTwo.svg"
 
-const Start = () => {
+const Start = ({dark}) => {
     return (
-        <section id=" start">
+        <section style={{background: dark ? "#fff" : "black",}} id=" start">
             <div className="container">
                 <div className="pt-[10%] start">
                     <div className="flex items-center">
